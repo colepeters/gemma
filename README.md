@@ -1,7 +1,7 @@
 # Gemma
 A starting point for beautiful CSS.
 
-## Lazer-focused, highly composable CSS
+## Tightly focused, highly composable CSS
 Built for performance, maintenance, and (re)usability, Gemma is a collection of foundational styles and classes for creating beautifully simple, highly effective CSS.
 
 It is currently in initial development and is _not_ ready for use yet. Stay tuned for updates and proper documentation.
