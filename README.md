@@ -35,4 +35,4 @@ and the following people:
 
 * * *
 
-_A gemma (/ˈdʒɛmə/ with a "g" like in "gem") is a single cell, or a mass of cells, that detaches from the parent and develops into a new individual._
+_A gemma (/ˈdʒɛmə/ with a soft "g", as in "general") is a single cell, or a mass of cells, that detaches from the parent and develops into a new individual._
