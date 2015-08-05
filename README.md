@@ -21,6 +21,7 @@ Gemma is evolutionary, not revolutionary. Its philosophical and stylistic leanin
 - [BassCSS](http://basscss.com)
 - [Tachyons](http://tachyons.io)
 - [OOCSS](https://github.com/stubbornella/oocss)
+- [ITCSS](https://twitter.com/itcss_io)
 
 and the following people:
 
