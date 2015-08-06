@@ -26,7 +26,7 @@ Gemma is evolutionary, not revolutionary. Its philosophical and stylistic leanin
 and the following people:
 
 - [@jxnblk](http://jxnblk.com)
-- [@mrmrs](http://mrmrs.cc)
+- [@mrmrs](http://mrmrs.io)
 - [@stubbornella](http://www.stubbornella.org/content/)
 - [@necolas](http://nicolasgallagher.com/)
 - [@csswizardry](http://csswizardry.com/)
