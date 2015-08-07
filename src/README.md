@@ -84,7 +84,7 @@ _<breakpointNamespace>-<namespace>-<className>[-<childName>||--<modifierName>]
 Classes are written mobile-first — that is, their styles apply from the smallest viewport width and up. Breakpoint-specific classes apply their styles only from subsequent breakpoints and wider. The class names are prefixed with an underscore, followed by the namespace of the breakpoint, followed by a single hyphen. The class name is written as normal thereafter.
 
 ```css
-u-py2 {
+.u-py2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -102,7 +102,8 @@ u-py2 {
 ```html
 <div class='u-py2 _md-u-py3'>
   <p>
-    This div has 1rem of vertical padding by default; from the medium breakpoint and up, it has 4rem of vertical padding.
+    This div has 1rem of vertical padding by default;
+    from the medium breakpoint and up, it has 4rem of vertical padding.
   </p>
 </div>
 ```
