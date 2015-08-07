@@ -23,7 +23,9 @@ Similar to utilities, but focused on surface- (or ‘skin’)-level styles as op
 
 ## Class naming structure
 
-  <namespace>-<className>[-<childName>||--<modifierName>]
+```
+<namespace>-<className>[-<childName>||--<modifierName>]
+```
 
 Class names in Gemma are defined with a simple, familiar structure. The class name always starts with the appropriate namespace, followed by the name of the class. Child classes repeat the parent’s class name, and append a single hyphen, followed by the child name. Modifier classes are appended with two hyphens and are rarely used.
 
@@ -47,7 +49,9 @@ A figurative example:
 
 ### Breakpoint-scoped class names
 
-  _<breakpointNamespace>-<namespace>-<className>[-<childName>||--<modifierName>]
+```
+_<breakpointNamespace>-<namespace>-<className>[-<childName>||--<modifierName>]
+```
 
 Classes are written mobile-first — that is, their styles apply from the smallest viewport width and up. Breakpoint-specific classes apply their styles only from subsequent breakpoints and wider. The class names are prefixed with an underscore, followed by the namespace of the breakpoint, followed by a single hyphen. The class name is written as normal thereafter.
 
