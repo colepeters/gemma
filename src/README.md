@@ -139,5 +139,5 @@ Although not included as part of this library, the following namespaces are reco
 - `js-` for classes to be used as JavaScript hooks (e.g. `<div class='js-slideToggle'>Slide me!</div>`)
 - `qa-` for classes to be used as testing hooks (e.g. `<p class='qa-loginState'>{{ user.loginState }}</p>`)
 
-You should never bind any styles to classes using either of these class names (this is in order to reduce side-effects and unnecessary complexity).
+You should never bind any styles to classes using either of these namespaces (this is in order to reduce side-effects and unnecessary complexity).
 
