@@ -1,6 +1,4 @@
 # Gemma
-A starting point for beautiful CSS.
-
 [![npm-version](https://img.shields.io/npm/v/gemma.svg?style=flat)](https://www.npmjs.com/package/gemma)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
