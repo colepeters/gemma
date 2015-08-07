@@ -12,14 +12,43 @@ Normalisation and styles that target bare HTML elements. These are highly generi
 ### Objects
 Context-agnostic classes that serve to define high-level structure and layout; this includes grid structures and the media object. Object classes use the `o-` namespace.
 
+Example:
+```css
+.o-media {
+  /* Thank you @stubbornella */  
+}
+```
+
 ### Components
 Context-specific classes that generate distinct components of an interface (for example, buttons). Components use the `c-` namespace.
+
+Example:
+```css
+.c-btn {
+  border-radius: 3px;
+  pointer: cursor;
+}
+```
 
 ### Utilities
 Structure- and layout-related classes that do one thing extremely well. These styles are highly granular, and can be combined with surface classes (see below) to construct ‘generic’ UI objects. Utilities use the `u-` namespace.
 
+Example:
+```css
+.u-align-center {
+  text-align: center;  
+}
+```
+
 ### Surfaces
 Similar to utilities, but focused on surface- (or ‘skin’)-level styles as opposed to structural/layout styles, like colours or font settings. Surface classes use the `s-` namespace.
+
+Example:
+```css
+.s-bg-red {
+  background-color: red;  
+}
+```
 
 ## Class naming structure
 
@@ -32,17 +61,16 @@ Class names in Gemma are defined with a simple, familiar structure. The class na
 A figurative example:
 
 ```css
-.c-button {
+.c-btn {
   border-radius: 3px;
-  background-color: blue;
-  color: white;
+  cursor: pointer;
 }
 
-.c-button-icon {
+.c-btn-icon {
   padding-right: 0.5em;  
 }
 
-.c-button--round {
+.c-btn--round {
   border-radius: 50%;  
 }
 ```
