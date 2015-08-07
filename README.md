@@ -28,10 +28,11 @@ and the following people:
 - [@jxnblk](http://jxnblk.com)
 - [@mrmrs](http://mrmrs.io)
 - [@stubbornella](http://www.stubbornella.org/content/)
-- [@necolas](https://github.com/necolas)
+- [@necolas](http://nicolasgallagher.com/)
+- [@csswizardry](http://csswizardry.com/)
 
 (and likely more whom I’ve forgotten to mention).
 
 * * *
 
-_A gemma (pronounced with a soft ‘g’, as in ‘generate’) is a single cell, or a mass of cells, that detaches from the parent and develops into a new individual._
+_A gemma (/ˈdʒɛmə/ with a soft "g", as in "general") is a single cell, or a mass of cells, that detaches from the parent and develops into a new individual._
