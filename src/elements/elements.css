@@ -1,0 +1,12 @@
+/*
+ * GEMMA/ELEMENTS
+ * 
+ * Normalisation and styles that target bare HTML elements.
+ * These are highly generic styles that should rarely, if ever,
+ * be altered, due to the breadth of their implementation.
+ * No classes are defined within these styles.
+ *
+ */
+
+@import './_normalize.css';
+
