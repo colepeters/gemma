@@ -1,0 +1,10 @@
+/*
+ * GEMMA/SETTINGS
+ *
+ * CSS custom properties, custom media queries, and other
+ * pieces of code which do not directly output
+ * CSS classes themselves.
+ * 
+ */
+
+@import './_mediaQueries.css';

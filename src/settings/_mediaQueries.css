@@ -1,0 +1,18 @@
+/*
+ * GEMMA/MEDIA QUERIES
+ *
+ * Custom media queries for quick reference.
+ * Used as follows:
+ *
+ * @media (--screen-md) {
+ *   .myClass {
+ *     foo: bar;  
+ *   }
+ * }
+ *
+ */
+
+@custom-media --screen-md screen and (min-width: 32em;)
+@custom-media --screen-lg screen and (min-width: 48em;)
+@custom-media --screen-xl screen and (min-width: 64em;)
+

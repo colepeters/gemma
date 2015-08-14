@@ -1,0 +1,100 @@
+/*
+ * GEMMA/COLOR
+ *
+ * Gemma comes with its own color palette.
+ * 
+ * Each color has a total of five variants, from light
+ * to dark. The swatches use a numeric system similar
+ * to many typefaces. The numbers and their corresponding
+ * values are:
+ *
+ * 100 - very light
+ * 300 - light
+ * 500 - medium
+ * 700 - dark
+ * 900 - very dark
+ *
+ * You’ll also find custom properties for true white
+ * and true black at the bottom of this file.
+ *
+ */
+
+:root {
+  
+  --color-red-100: #ffbabf;
+  --color-red-300: #f2777f;
+  --color-red-500: #eb4651;
+  --color-red-700: #b82832;
+  --color-red-900: #7a1b21;
+
+  --color-yellow-100: #ffd183;
+  --color-yellow-300: #ffb76e;
+  --color-yellow-500: #ff9c38;
+  --color-yellow-700: #cc6f12;
+  --color-yellow-900: #8f4700;
+
+  --color-green-100: #baefba;
+  --color-green-300: #9aed9a;
+  --color-green-500: #6cd96c;
+  --color-green-700: #479e47;
+  --color-green-900: #2c612c;
+
+  --color-aqua-100: #b9f1de;
+  --color-aqua-300: #7ae4c0;
+  --color-aqua-500: #2bd99f;
+  --color-aqua-700: #0f996b;
+  --color-aqua-900: #227358;
+
+  --color-cyan-100: #b1ecf2;
+  --color-cyan-300: #6edae6;
+  --color-cyan-500: #2bc7d9;
+  --color-cyan-700: #1095a3;
+  --color-cyan-900: #0bc16b;
+
+  --color-blue-100: #acd6f2;
+  --color-blue-300: #65a9dc;
+  --color-blue-500: #2887c7;
+  --color-blue-700: #116ca8;
+  --color-blue-900: #024a7a;
+
+  --color-purple-100: #cac1f5;
+  --color-purple-300: #a69ae3;
+  --color-purple-500: #8675d9;
+  --color-purple-700: #6153a6;
+  --color-purple-900: #4f4f47;
+
+  --color-violet-100: #e4c7f1;
+  --color-violet-300: #b689ca;
+  --color-violet-500: #a065ba;
+  --color-violet-700: #744987;
+  --color-violet-900: #5f406b;
+
+  --color-magenta-100: #ffbad1;
+  --color-magenta-300: #f57fa6;
+  --color-magenta-500: #e65082;
+  --color-magenta-700: #a3395c;
+  --color-magenta-900: #80364e;
+
+  --color-gray-100: #e6e9eb;
+  --color-gray-300: #cdcfd1;
+  --color-gray-500: #b6b9ba;
+  --color-gray-700: #8c8e8f;
+  --color-gray-900: #696a6b;
+
+  --color-warmGray-100: #e8e5e1;
+  --color-warmGray-300: #d9d4ce;
+  --color-warmGray-500: #c7c1bb;
+  --color-warmGray-700: #96908a;
+  --color-warmGray-900: #6b6660;
+
+  --color-coolGray-100: #e4e9eb;
+  --color-coolGray-300: #d0d7db;
+  --color-coolGray-500: #bbc2c7;
+  --color-coolGray-700: #929ba1;
+  --color-coolGray-900: #656d73;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+}
+
