@@ -1,0 +1,10 @@
+/*
+ * GEMMA/CURSOR
+ *
+ * Set the cursor property.
+ *
+ */
+
+.u-pointer {
+  cursor: pointer;
+}
