@@ -1,0 +1,10 @@
+/*
+ * GEMMA/SURFACES
+ *
+ * Similar to utilities, but focused on surface- (or ‘skin’)-level
+ * styles as opposed to structural/layout styles,
+ * like colours or font settings.
+ *
+ */
+
+@import './_s-color.css';
