@@ -111,7 +111,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: var(--color-cyan);
+  color: var(--color-blue-500);
   background-image: linear-gradient(transparent 50%, var(--color-blue-500) 50%);
 }
 
