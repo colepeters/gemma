@@ -1,0 +1,14 @@
+/*
+ * GEMMA/SPACING
+ *
+ * Variables used in setting whitespace properties
+ *
+ */
+
+:root {
+  --spacing-1: 0.5rem;
+  --spacing-2: 1rem;
+  --spacing-3: 2rem;
+  --spacing-4: 4rem;
+  --spacing-5: 8rem;
+}
