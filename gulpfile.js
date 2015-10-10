@@ -1,8 +1,10 @@
 // NPM modules
 var gulp = require('gulp')
+var cssnext = require('cssnext')
 var postcss = require('gulp-postcss')
 var stylelint = require('stylelint')
 var reporter = require('postcss-reporter')
+var rename = require('gulp-rename')
 
 // Local imports
 var config = require('./config')
@@ -19,4 +21,17 @@ gulp.task('lint', function () {
       clearMessages: true
     })
   ]))
+})
+
+gulp.task('transpile', function () {
+  return gulp.src('./src/gemma.css')
+  .pipe(postcss([
+    cssnext({
+      compress: true
+    })
+  ]))
+  .pipe(rename({
+    suffix: '.min'
+  }))
+  .pipe(gulp.dest('./public'))
 })

@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/colepeters/gemma#readme",
   "devDependencies": {
+    "cssnext": "^1.8.4",
     "gulp": "~3.9.0",
     "gulp-postcss": "~5.1.10",
+    "gulp-rename": "^1.2.2",
     "postcss-reporter": "~0.4.0",
     "snazzy": "~2.0.0",
     "standard": "~5.0.2",
