@@ -15,7 +15,9 @@
  * 900 - very dark
  *
  * You’ll also find custom properties for true white
- * and true black at the bottom of this file.
+ * and true black at the bottom of this file, along with
+ * the 'nearBlack' color which is used as the default
+ * text color.
  *
  */
 
@@ -77,9 +79,9 @@
 
   --color-gray-100: #e6e9eb;
   --color-gray-300: #cdcfd1;
-  --color-gray-500: #b6b9ba;
-  --color-gray-700: #8c8e8f;
-  --color-gray-900: #696a6b;
+  --color-gray-500: #a7a9ab;
+  --color-gray-700: #707273;
+  --color-gray-900: #414242;
 
   --color-warmGray-100: #e8e5e1;
   --color-warmGray-300: #d9d4ce;
@@ -95,6 +97,7 @@
 
   --color-white: #ffffff;
   --color-black: #000000;
+  --color-nearBlack: #141515;
 
 }
 

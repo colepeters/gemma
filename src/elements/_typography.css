@@ -1,0 +1,124 @@
+/*
+ * GEMMA/TYPOGRAPHY
+ *
+ * Base typographic styles. These attempt to set some sane defaults
+ * without imposing too many opinions on style. Comment-out or
+ * override as need be.
+ *
+ * Font families set here prefer quality system typefaces,
+ * of the sans-serif variety.
+ *
+ */
+
+html,
+input,
+select,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Geneva, Tahoma, sans-serif;
+  color: var(--color-nearBlack);
+}
+
+html {
+  font-size: 100%;
+}
+
+/* Set <body> font size a little larger than normal.
+ * We like readability in our text. */
+body {
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+
+@media (--screen-md) {
+  body {
+    font-size: 1.25em;
+  }
+}
+
+/* Only apply this text-rendering value on headings, as applying it to large
+ * blocks of text can introduce performance issues */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-rendering: optimizeLegibility;
+}
+
+/* NOTE: If you change heading styles here, ensure they are also
+ * changed in the respective s- (surface) classes. */
+h1 { font-size: 2em; letter-spacing: -0.06em; }
+h2 { font-size: 1.5em; letter-spacing: -0.04em; }
+h3 { font-size: 1.25em; letter-spacing: -0.02em; }
+
+h4,
+h5,
+h6 { font-size: 1em; }
+
+@media (--screen-lg) {
+  h1 { font-size: 3em; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.5em; }
+  h4 { font-size: 1.25em; }
+  h5,
+  h6 { font-size: 1em; }
+}
+
+/* Reset paragraph margins */
+p {
+  margin: 0;
+}
+
+/* Create a line break between subsequent paragaphs;
+ * use em units for matching to breakpoint font-size */
+p + p {
+  margin-top: 1.5em;
+}
+
+/* Definition list terms are set in bold */
+dt {
+  font-weight: 700;
+}
+
+/* List elements’ inset alignment */
+dd { margin-left: 1.25em; }
+ul { padding-left: 1.25em; }
+ol { padding-left: 1.25em; }
+
+@media (--screen-md) {
+  dd { margin-left: 2em; }
+  ul { padding-left: 3em; }
+  ol { padding-left: 3em; }
+}
+
+/* Use background-image gradient for link underlines
+ * http://codepen.io/jxnblk/pen/jCmwK */
+a {
+  text-decoration: none;
+  color: var(--color-blue-700);
+  background-image: linear-gradient(transparent 50%, var(--color-blue-700) 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0 90%;
+  transition: all 0.2s;
+  transition-timing-function: ease;
+}
+
+a:visited {
+  color: var(--color-blue-900);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-cyan);
+  background-image: linear-gradient(transparent 50%, var(--color-blue-500) 50%);
+}
+
+a:active {
+  color: var(--color-blue-300);
+}
+
+address {
+  font-style: normal;
+}
