@@ -14,7 +14,7 @@ html,
 input,
 select,
 textarea {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Geneva, Tahoma, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Avenir, Geneva, Tahoma, sans-serif;
   color: var(--color-nearBlack);
 }
 
