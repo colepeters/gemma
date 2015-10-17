@@ -9,7 +9,6 @@
  *
  */
 
-/* By default no width is specified; thus, o-container inherits full width */
 .o-container {
   margin-left: auto;
   margin-right: auto;
@@ -168,6 +167,7 @@
  */
 
 @media (--screen-md) {
+  .o-container,
   ._md-o-container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -229,8 +229,9 @@
  */
 
 @media (--screen-lg) {
+  .o-container
   ._lg-o-container {
-    max-width: 1024px;
+    max-width: 42em;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -292,8 +293,9 @@
  */
 
 @media (--screen-xl) {
+  .o-container,
   ._xl-o-container {
-    max-width: 1024px;
+    max-width: 56em;
     padding-left: 2rem;
     padding-right: 2rem;
   }
