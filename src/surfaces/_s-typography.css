@@ -1,0 +1,19 @@
+/* NOTE: If you change heading styles here, ensure they are also
+ * changed in the respective element definitions. */
+.s-h1 { font-size: 2em; letter-spacing: -0.06em; }
+.s-h2 { font-size: 1.5em; letter-spacing: -0.04em; }
+.s-h3 { font-size: 1.25em; letter-spacing: -0.02em; }
+
+.s-h4,
+.s-h5,
+.s-h6 { font-size: 1em; }
+
+@media (--screen-lg) {
+  .s-h1 { font-size: 3em; }
+  .s-h2 { font-size: 2em; }
+  .s-h3 { font-size: 1.5em; }
+  .s-h4 { font-size: 1.25em; }
+  .s-h5,
+  .s-h6 { font-size: 1em; }
+}
+
