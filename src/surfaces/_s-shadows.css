@@ -1,0 +1,5 @@
+.s-bs1 { box-shadow: var(--boxShadow-1); }
+.s-bs2 { box-shadow: var(--boxShadow-2); }
+.s-bs3 { box-shadow: var(--boxShadow-3); }
+.s-bs4 { box-shadow: var(--boxShadow-4); }
+.s-bs5 { box-shadow: var(--boxShadow-5); }
