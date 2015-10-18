@@ -97,7 +97,7 @@ ol { padding-left: 1.25em; }
 a {
   text-decoration: none;
   color: var(--color-blue-700);
-  background-image: linear-gradient(transparent 50%, var(--color-blue-700) 50%);
+  background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
   background-size: 2px 2px;
   background-position: 0 90%;
@@ -112,7 +112,6 @@ a:visited {
 a:hover,
 a:focus {
   color: var(--color-blue-500);
-  background-image: linear-gradient(transparent 50%, var(--color-blue-500) 50%);
 }
 
 a:active {
