@@ -106,7 +106,7 @@ a {
 }
 
 a:visited {
-  color: var(--color-blue-900);
+  color: currentColor;
 }
 
 a:hover,
