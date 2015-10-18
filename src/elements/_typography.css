@@ -96,7 +96,7 @@ ol { padding-left: 1.25em; }
  * http://codepen.io/jxnblk/pen/jCmwK */
 a {
   text-decoration: none;
-  color: var(--color-blue-700);
+  color: currentColor;
   background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
   background-size: 2px 2px;
