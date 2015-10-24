@@ -1,0 +1,10 @@
+/*
+ * GEMMA/TYPOGRAPHY UTILITIES
+ *
+ * Utility classes for resetting or modifying typographic properties
+ *
+ */
+
+.u-listReset {
+  list-style: none;
+}

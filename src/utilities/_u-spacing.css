@@ -44,7 +44,7 @@
 .u-pb4 { padding-bottom: var(--spacing-4); }
 .u-pb5 { padding-bottom: var(--spacing-5); }
 
-.u-pl1 { padding-left: 0; }
+.u-pl0 { padding-left: 0; }
 .u-pl1 { padding-left: var(--spacing-1); }
 .u-pl2 { padding-left: var(--spacing-2); }
 .u-pl3 { padding-left: var(--spacing-3); }

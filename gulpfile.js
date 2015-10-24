@@ -23,7 +23,7 @@ gulp.task('lint', function () {
   ]))
 })
 
-gulp.task('transpile', function () {
+gulp.task('compile', function () {
   return gulp.src('./src/gemma.css')
   .pipe(postcss([
     cssnext({
