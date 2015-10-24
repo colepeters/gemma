@@ -41,3 +41,13 @@
 .s-700 { font-weight: 700; }
 .s-800 { font-weight: 800; }
 .s-900 { font-weight: 900; }
+
+/*
+ * SMALL-CAPS
+ */
+
+.s-smallCaps {
+  font-size: 0.666em;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
