@@ -43,11 +43,25 @@
 .s-900 { font-weight: 900; }
 
 /*
- * SMALL-CAPS
+ * SMALL CAPS
  */
 
 .s-smallCaps {
   font-size: 0.666em;
   text-transform: uppercase;
   letter-spacing: 0.125em;
+}
+
+/*
+ * LINK RESET
+ *
+ * Use this to remove the custom and fallback underline from links.
+ * This should be used with caution, as links should not be indicated
+ * to the user by way of colour alone.
+ *
+ */
+
+.s-linkReset {
+  background-image: none;
+  text-decoration: none;
 }
