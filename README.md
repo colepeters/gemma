@@ -17,7 +17,9 @@ Gemma’s philosophical approach to CSS favours:
 - delivering the smallest amount of CSS possible to devices, browsers, and users
 
 ## Usage
-Gemma is not ready for public usage yet, though I have started using development builds on [my personal website](https://colepeters.com). Public builds are still a couple minor version numbers away. Hold tight.
+Gemma is not ready for production usage yet, though I have started using development builds on [my personal website](https://colepeters.com). Production-ready builds are still a couple minor version numbers away. Hold tight.
+
+In the mean time, you can check the pre-release updates on [the releases page](https://github.com/colepeters/gemma/releases).
 
 ## Development
 Gemma is under active development and is not considered ready for production usage yet. Contributions may be considered but given that critical development is still being defined, it may be a bit soon for PRs. With that said, to work on Gemma:
