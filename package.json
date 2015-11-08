@@ -1,6 +1,6 @@
 {
   "name": "gemma",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A starting point for beautiful CSS — currently under development",
   "style": "src/gemma.css",
   "scripts": {
