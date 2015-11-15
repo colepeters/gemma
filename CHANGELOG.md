@@ -1,5 +1,8 @@
 # Gemma changelog
 
+## 0.3.0
+Small addition of position and z-index utility classes. Position utilities are breakpoint-prefixed, but z-index utilities are not (I’ve rarely encountered a need to change z-index by breakpoint).
+
 ## 0.2.0
 Minimal feature set. Broadly speaking:
 
