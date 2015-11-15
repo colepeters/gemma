@@ -1,0 +1,39 @@
+/*
+ * GEMMA/POSITIONING UTILITIES
+ *
+ * For setting position properties
+ *
+ */
+
+.u-static { position: static; }
+.u-relative { position: relative; }
+.u-absolute { position: absolute; }
+.u-fixed { position: fixed; }
+
+/* WARNING: POSITION: STICKY IS EXPERIMENTAL! */
+.u-sticky { position: sticky; }
+
+@media (--screen-md) {
+  ._md-u-static { position: static; }
+  ._md-u-relative { position: relative; }
+  ._md-u-absolute { position: absolute; }
+  ._md-u-fixed { position: fixed; }
+  ._md-u-sticky { position: sticky; }
+}
+
+@media (--screen-lg) {
+  ._lg-u-static { position: static; }
+  ._lg-u-relative { position: relative; }
+  ._lg-u-absolute { position: absolute; }
+  ._lg-u-fixed { position: fixed; }
+  ._lg-u-sticky { position: sticky; }
+}
+
+@media (--screen-xl) {
+  ._xl-u-static { position: static; }
+  ._xl-u-relative { position: relative; }
+  ._xl-u-absolute { position: absolute; }
+  ._xl-u-fixed { position: fixed; }
+  ._xl-u-sticky { position: sticky; }
+}
+
