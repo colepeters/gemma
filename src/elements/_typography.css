@@ -92,8 +92,14 @@ ol { padding-left: 1.25em; }
   ol { padding-left: 3em; }
 }
 
-/* Use background-image gradient for link underlines
- * http://codepen.io/jxnblk/pen/jCmwK */
+/* Custom link underlines.
+ * Credit due to Medium (https://goo.gl/U1psVs)
+ * and Brent Jackson (http://codepen.io/jxnblk/pen/jCmwK)
+ * for the technique.
+ * Gemma uses the currentColor attribute for link text colour and gradient
+ * underline colour. This means you can use a s-* colour class on <a>
+ * elements and that colour will be reflected in both these properties.
+ * Link hover/focus colour defaults to blue-500. */
 a {
   text-decoration: none;
   color: currentColor;
