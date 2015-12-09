@@ -16,7 +16,7 @@ Gemma’s philosophical approach to CSS favours:
 - designing systems that are easy for developers and designers to learn and use
 - delivering the smallest amount of CSS possible to devices, browsers, and users
 
-Architectural and technical details can be found in [the source files readme](https://github.com/colepeters/gemma/src).
+Architectural and technical details can be found in [the source files readme](https://github.com/colepeters/gemma/tree/master/src).
 
 ## Usage
 Gemma is not ready for production usage yet, though I have started using development builds on [my personal website](https://colepeters.com) and the [First Things First 2014 website](http://firstthingsfirst2014.org). Production-ready builds are still a couple minor version numbers away. Hold tight.
