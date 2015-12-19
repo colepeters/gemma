@@ -1,0 +1,10 @@
+/*
+ * GEMMA/ANIMATION
+ *
+ * Settings for animation properties
+ *
+ */
+
+:root {
+  --cubic-1: cubic-bezier(0.4,0,0.2,1);
+}
