@@ -24,14 +24,17 @@
   },
   "homepage": "https://github.com/colepeters/gemma#readme",
   "devDependencies": {
-    "cssnext": "^1.8.4",
+    "cssnano": "~3.5.2",
     "gulp": "~3.9.0",
-    "gulp-postcss": "~5.1.10",
-    "gulp-rename": "^1.2.2",
+    "gulp-postcss": "~6.0.1",
+    "gulp-rename": "~1.2.2",
+    "postcss-cssnext": "~2.4.0",
+    "postcss-import": "~8.0.2",
     "postcss-reporter": "~0.4.0",
-    "require-dir": "^0.3.0",
+    "postcss-url": "~5.1.1",
+    "require-dir": "~0.3.0",
     "snazzy": "~2.0.0",
     "standard": "~5.0.2",
-    "stylelint": "~0.6.2"
+    "stylelint": "4.4.0"
   }
 }
