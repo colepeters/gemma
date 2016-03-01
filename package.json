@@ -4,7 +4,8 @@
   "description": "A starting point for beautiful CSS — currently under development",
   "style": "src/gemma.css",
   "scripts": {
-    "test": "standard --verbose | snazzy && gulp lint"
+    "compile": "./node_modules/.bin/gulp compile",
+    "lint": "./node_modules/.bin/gulp lint"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "gulp-postcss": "~5.1.10",
     "gulp-rename": "^1.2.2",
     "postcss-reporter": "~0.4.0",
+    "require-dir": "^0.3.0",
     "snazzy": "~2.0.0",
     "standard": "~5.0.2",
     "stylelint": "~0.6.2"
