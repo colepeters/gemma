@@ -18,7 +18,8 @@ gulp.task('compile', function () {
     require('postcss-import'),
     require('postcss-cssnext')({
       browsers: BROWSER_SUPPORT_LIST
-    })
+    }),
+    require('cssnano')
   ]))
   .pipe(rename({
     suffix: '.min'
