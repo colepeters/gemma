@@ -29,12 +29,12 @@ Gemma is under active development and is not considered ready for production usa
 1. Clone the latest master branch of the repository (`git clone https://github.com/colepeters/gemma.git`)
 2. `cd` to the repository and install dependencies via npm (`cd gemma && npm i`)
 
-Development tasks are currently managed with Gulp:
+Development tasks are currently managed with Gulp via npm scripts:
 
-### `gulp lint`
+### `npm run lint`
 Gemma ships with a [linting configuration](https://github.com/colepeters/gemma/blob/master/config.js) which is passed to [Stylelint](https://github.com/stylelint/stylelint). The lint task will examine all CSS files in the source directory, and output any linting errors to the command line via [postcss-reporter](https://github.com/postcss/postcss-reporter).
 
-### `gulp compile`
+### `npm run compile`
 Passes all source CSS files to [cssnext](https://github.com/cssnext/cssnext), via [gulp-postcss](https://github.com/postcss/gulp-postcss). This transforms source CSS custom properties to their computed values and minifies the output, resulting in a `gemma.min.css` file.
 
 More development tasks (continuous compilation, watchers, etc) will be integrated shortly.

@@ -1,5 +1,12 @@
 # Gemma changelog
 
+## 0.4.0
+- Migrates to [`postcss-cssnext`](https://github.com/MoOx/postcss-cssnext)
+- Moves gulp tasks into npm scripts
+- Updates linting configuration and moves related rules into `stylelintrc.json`
+- Updates box shadow properties
+- Add animation curve settings
+
 ## 0.3.1
 Adds better commenting to the ruleset defining custom link underlines (see `src/elements/_typography.css`).
 
