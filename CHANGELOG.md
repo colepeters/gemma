@@ -1,5 +1,8 @@
 # Gemma changelog
 
+## 0.4.1
+- Amend the `compile` task to actually minify the CSS (what a concept!)
+
 ## 0.4.0
 - Migrates to [`postcss-cssnext`](https://github.com/MoOx/postcss-cssnext)
 - Moves gulp tasks into npm scripts
