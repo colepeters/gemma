@@ -1,0 +1,29 @@
+/*
+ * GEMMA/DISPLAY UTILITIES
+ *
+ * For setting display properties
+ *
+ */
+
+.block { display: block; }
+.inlineBlock { display: inline-block; }
+.inline { display: inline; }
+
+@media (--screen-md) {
+  ._md-block { display: block; }
+  ._md-inlineBlock { display: inline-block; }
+  ._md-inline { display: inline; }
+}
+
+@media (--screen-lg) {
+  ._lg-block { display: block; }
+  ._lg-inlineBlock { display: inline-block; }
+  ._lg-inline { display: inline; }
+}
+
+@media (--screen-xl) {
+  ._xl-block { display: block; }
+  ._xl-inlineBlock { display: inline-block; }
+  ._xl-inline { display: inline; }
+}
+
