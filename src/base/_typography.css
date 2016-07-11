@@ -106,7 +106,7 @@ a {
   background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
   background-size: 2px 2px;
-  background-position: 0 90%;
+  background-position: 0 95%;
   transition: all 0.2s;
   transition-timing-function: ease;
 }
