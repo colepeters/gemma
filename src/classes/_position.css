@@ -5,35 +5,29 @@
  *
  */
 
-.static { position: static; }
-.relative { position: relative; }
-.absolute { position: absolute; }
-.fixed { position: fixed; }
-
-/* WARNING: POSITION: STICKY IS EXPERIMENTAL! */
-.sticky { position: sticky; }
+.p-s { position: static; }
+.p-r { position: relative; }
+.p-a { position: absolute; }
+.p-f { position: fixed; }
 
 @media (--screen-md) {
-  ._md-static { position: static; }
-  ._md-relative { position: relative; }
-  ._md-absolute { position: absolute; }
-  ._md-fixed { position: fixed; }
-  ._md-sticky { position: sticky; }
+  ._md-p-s { position: static; }
+  ._md-p-r { position: relative; }
+  ._md-p-a { position: absolute; }
+  ._md-p-f { position: fixed; }
 }
 
 @media (--screen-lg) {
-  ._lg-static { position: static; }
-  ._lg-relative { position: relative; }
-  ._lg-absolute { position: absolute; }
-  ._lg-fixed { position: fixed; }
-  ._lg-sticky { position: sticky; }
+  ._lg-p-s { position: static; }
+  ._lg-p-r { position: relative; }
+  ._lg-p-a { position: absolute; }
+  ._lg-p-f { position: fixed; }
 }
 
 @media (--screen-xl) {
-  ._xl-static { position: static; }
-  ._xl-relative { position: relative; }
-  ._xl-absolute { position: absolute; }
-  ._xl-fixed { position: fixed; }
-  ._xl-sticky { position: sticky; }
+  ._xl-p-s { position: static; }
+  ._xl-p-r { position: relative; }
+  ._xl-p-a { position: absolute; }
+  ._xl-p-f { position: fixed; }
 }
 

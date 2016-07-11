@@ -3,27 +3,37 @@
  *
  * For setting display properties
  *
+ * Legend:
+ * d  - display
+ * b  - block
+ * ib - inline-block
+ * f  - flex
+ *
  */
 
-.block { display: block; }
-.inlineBlock { display: inline-block; }
-.inline { display: inline; }
+.d-b { display: block; }
+.d-ib { display: inline-block; }
+.d-i { display: inline; }
+.d-f { display: flex; }
 
 @media (--screen-md) {
-  ._md-block { display: block; }
-  ._md-inlineBlock { display: inline-block; }
-  ._md-inline { display: inline; }
+  ._md-d-b { display: block; }
+  ._md-d-ib { display: inline-block; }
+  ._md-d-i { display: inline; }
+  ._md-d-f { display: flex; }
 }
 
 @media (--screen-lg) {
-  ._lg-block { display: block; }
-  ._lg-inlineBlock { display: inline-block; }
-  ._lg-inline { display: inline; }
+  ._lg-d-b { display: block; }
+  ._lg-d-ib { display: inline-block; }
+  ._lg-d-i { display: inline; }
+  ._lg-d-f { display: flex; }
 }
 
 @media (--screen-xl) {
-  ._xl-block { display: block; }
-  ._xl-inlineBlock { display: inline-block; }
-  ._xl-inline { display: inline; }
+  ._xl-d-b { display: block; }
+  ._xl-d-ib { display: inline-block; }
+  ._xl-d-i { display: inline; }
+  ._xl-d-f { display: flex; }
 }
 

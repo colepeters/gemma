@@ -23,6 +23,16 @@ Gemma is not ready for production usage yet, though I have started using develop
 
 In the mean time, you can check the pre-release updates on [the releases page](https://github.com/colepeters/gemma/releases).
 
+## Class naming
+Class names in Gemma follow these naming conventions:
+
+- For classes which deal with properties that take **named** attributes, e.g. `text-align`, the class name will begin with that property’s name as an acronym, e.g. `ta`, followed by a dash, and an acronym for the attribute name, e.g. `c` for `center`. Full example: `ta-c` = `text-align: center`
+- For classes which deal with properties that take **numerical** attributes, e.g. `padding-right`, the class name will begin with that property’s name as an acronym, followed by the number (without units, and **not** preceded by a dash). Full example: `pr1` = `padding-right: 1<unit/increment>`
+
+*(Note: where several property names are part of a larger CSS module, e.g. flexbox, classes are preceded with a letter to indicate this module. Therefore the flexbox-related property `align-content` can be set with classes beginning with `fac` for `(flex) align-content`.)*
+
+This system may seem overly concise at first, but after using the system for awhile, it should start to feel natural. The brevity of this naming system saves you from typing more characters than necessary, and saves space in your markup. (On a personal note, previous CSS libraries that I’ve worked on have erred more on the side of verbosity, where the class for `text-align: left` would be `align-left`. While this felt fool-proof at first, after several months of usage, typing such a comparatively long class name became annoying, especially once the library classes had become memorised.)
+
 ## Development
 Gemma is under active development and is not considered ready for production usage yet. Contributions may be considered but given that critical development is still being defined, it may be a bit soon for PRs. With that said, to work on Gemma:
 
