@@ -44,6 +44,9 @@
 
 /*
  * SMALL CAPS
+ *
+ * This is a rare example of combining several properties into one class
+ * which is not a 'reset'. Under consideration.
  */
 .smallCaps {
   font-size: 0.666em;
