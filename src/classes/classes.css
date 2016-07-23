@@ -8,6 +8,7 @@
  */
 
 
+@import './_border.css';
 @import './_color.css';
 @import './_cursor.css';
 @import './_display.css';

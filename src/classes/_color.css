@@ -167,3 +167,83 @@
 .bg-black { background-color: var(--color-black) !important; }
 .bg-nearBlack { background-color: var(--color-nearBlack) !important; }
 
+/*
+ * Border colors
+ */
+
+.bc-red-100 { border-color: var(--color-red-100) !important; }
+.bc-red-300 { border-color: var(--color-red-300) !important; }
+.bc-red-500 { border-color: var(--color-red-500) !important; }
+.bc-red-700 { border-color: var(--color-red-700) !important; }
+.bc-red-900 { border-color: var(--color-red-900) !important; }
+
+.bc-yellow-100 { border-color: var(--color-yellow-100) !important; }
+.bc-yellow-300 { border-color: var(--color-yellow-300) !important; }
+.bc-yellow-500 { border-color: var(--color-yellow-500) !important; }
+.bc-yellow-700 { border-color: var(--color-yellow-700) !important; }
+.bc-yellow-900 { border-color: var(--color-yellow-900) !important; }
+
+.bc-green-100 { border-color: var(--color-green-100) !important; }
+.bc-green-300 { border-color: var(--color-green-300) !important; }
+.bc-green-500 { border-color: var(--color-green-500) !important; }
+.bc-green-700 { border-color: var(--color-green-700) !important; }
+.bc-green-900 { border-color: var(--color-green-900) !important; }
+
+.bc-aqua-100 { border-color: var(--color-aqua-100) !important; }
+.bc-aqua-300 { border-color: var(--color-aqua-300) !important; }
+.bc-aqua-500 { border-color: var(--color-aqua-500) !important; }
+.bc-aqua-700 { border-color: var(--color-aqua-700) !important; }
+.bc-aqua-900 { border-color: var(--color-aqua-900) !important; }
+
+.bc-cyan-100 { border-color: var(--color-cyan-100) !important; }
+.bc-cyan-300 { border-color: var(--color-cyan-300) !important; }
+.bc-cyan-500 { border-color: var(--color-cyan-500) !important; }
+.bc-cyan-700 { border-color: var(--color-cyan-700) !important; }
+.bc-cyan-900 { border-color: var(--color-cyan-900) !important; }
+
+.bc-blue-100 { border-color: var(--color-blue-100) !important; }
+.bc-blue-300 { border-color: var(--color-blue-300) !important; }
+.bc-blue-500 { border-color: var(--color-blue-500) !important; }
+.bc-blue-700 { border-color: var(--color-blue-700) !important; }
+.bc-blue-900 { border-color: var(--color-blue-900) !important; }
+
+.bc-purple-100 { border-color: var(--color-purple-100) !important; }
+.bc-purple-300 { border-color: var(--color-purple-300) !important; }
+.bc-purple-500 { border-color: var(--color-purple-500) !important; }
+.bc-purple-700 { border-color: var(--color-purple-700) !important; }
+.bc-purple-900 { border-color: var(--color-purple-900) !important; }
+
+.bc-violet-100 { border-color: var(--color-violet-100) !important; }
+.bc-violet-300 { border-color: var(--color-violet-300) !important; }
+.bc-violet-500 { border-color: var(--color-violet-500) !important; }
+.bc-violet-700 { border-color: var(--color-violet-700) !important; }
+.bc-violet-900 { border-color: var(--color-violet-900) !important; }
+
+.bc-magenta-100 { border-color: var(--color-magenta-100) !important; }
+.bc-magenta-300 { border-color: var(--color-magenta-300) !important; }
+.bc-magenta-500 { border-color: var(--color-magenta-500) !important; }
+.bc-magenta-700 { border-color: var(--color-magenta-700) !important; }
+.bc-magenta-900 { border-color: var(--color-magenta-900) !important; }
+
+.bc-gray-100 { border-color: var(--color-gray-100) !important; }
+.bc-gray-300 { border-color: var(--color-gray-300) !important; }
+.bc-gray-500 { border-color: var(--color-gray-500) !important; }
+.bc-gray-700 { border-color: var(--color-gray-700) !important; }
+.bc-gray-900 { border-color: var(--color-gray-900) !important; }
+
+.bc-warmGray-100 { border-color: var(--color-warmGray-100) !important; }
+.bc-warmGray-300 { border-color: var(--color-warmGray-300) !important; }
+.bc-warmGray-500 { border-color: var(--color-warmGray-500) !important; }
+.bc-warmGray-700 { border-color: var(--color-warmGray-700) !important; }
+.bc-warmGray-900 { border-color: var(--color-warmGray-900) !important; }
+
+.bc-coolGray-100 { border-color: var(--color-coolGray-100) !important; }
+.bc-coolGray-300 { border-color: var(--color-coolGray-300) !important; }
+.bc-coolGray-500 { border-color: var(--color-coolGray-500) !important; }
+.bc-coolGray-700 { border-color: var(--color-coolGray-700) !important; }
+.bc-coolGray-900 { border-color: var(--color-coolGray-900) !important; }
+
+.bc-white { border-color: var(--color-white) !important; }
+.bc-black { border-color: var(--color-black) !important; }
+.bc-nearBlack { border-color: var(--color-nearBlack) !important; }
+
