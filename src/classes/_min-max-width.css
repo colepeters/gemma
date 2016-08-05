@@ -1,0 +1,24 @@
+/*
+ * GEMMA/MIN-MAX WIDTH UTILITIES
+ *
+ * For setting min-width and max-width properties
+ *
+ * Legend:
+ * mxw - max-width
+ * mnw - min-width
+ *
+ */
+
+.mxw25 { max-width: 25%; }
+.mxw33 { max-width: 33.333%; }
+.mxw50 { max-width: 50%; }
+.mxw66 { max-width: 66.666%; }
+.mxw75 { max-width: 75%; }
+.mxw100 { max-width: 100%; }
+
+.mnw25 { min-width: 25%; }
+.mnw33 { min-width: 33.333%; }
+.mnw50 { min-width: 50%; }
+.mnw66 { min-width: 66.666%; }
+.mnw75 { min-width: 75%; }
+.mnw100 { min-width: 100%; }

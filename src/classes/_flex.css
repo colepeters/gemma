@@ -1,0 +1,68 @@
+/*
+ * GEMMA/FLEXBOX
+ *
+ * For setting flexbox properties
+ *
+ * Legend:
+ * fb  - flex-basis
+ * fac - (flex) align-content
+ * fjc - (flex) justify-content
+ * fai - (flex) align-items
+ * fd  - flex-direction
+ * fw  - flex-wrap
+ *
+ */
+
+/* flex-grow: 0; flex-shrink: 0; flex-basis: auto; */
+.f00-auto { flex: 0 0 auto; }
+
+/* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
+.f01-auto { flex: 0 1 auto; }
+
+/* flex-basis
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis */
+.fb0 { flex-basis: 0; }
+.fb25 { flex-basis: 25%; }
+.fb33 { flex-basis: 33.333%; }
+.fb50 { flex-basis: 50%; }
+.fb66 { flex-basis: 66.666%; }
+.fb75 { flex-basis: 75%; }
+.fb100 { flex-basis: 100%; }
+
+/* align-content 
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/align-content */
+.fac-fs { align-content: flex-start; }
+.fac-fe { align-content: flex-end; }
+.fac-c { align-content: center; }
+.fac-sb { align-content: space-between; }
+.fac-sa { align-content: space-around; }
+.fac-s { align-content: stretch; }
+
+/* justify-content
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+.fjc-fs { justify-content: flex-start; }
+.fjc-fe { justify-content: flex-end; }
+.fjc-c { justify-content: center; }
+.fjc-sb { justify-content: space-between; }
+.fjc-sa { justify-content: space-around; }
+
+/* align-items
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/align-items */
+.fai-fs { align-items: flex-start; }
+.fai-fe { align-items: flex-end; }
+.fai-c { align-items: center; }
+.fai-b { align-items: baseline; }
+.fai-s { align-items: stretch; }
+
+/* flex-direction
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction */
+.fd-r { flex-direction: row; }
+.fd-rr { flex-direction: row-reverse; }
+.fd-c { flex-direction: column; }
+.fd-cr { flex-direction: column-reverse; }
+
+/* flex-wrap
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap */
+.fw-w { flex-wrap: wrap; }
+.fw-nw { flex-wrap: nowrap; }
+.fw-wr { flex-wrap: wrap-reverse; }

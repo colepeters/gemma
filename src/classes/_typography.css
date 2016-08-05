@@ -1,0 +1,84 @@
+/*
+ * GEMMA/TYPOGRAPHIC SURFACES
+ *
+ * For changing typographic properties.
+ *
+ */
+
+/* 
+ * HEADINGS
+ *
+ * NOTE: If you change heading styles here, ensure they are also
+ * changed in the respective element definitions.
+ *
+ */
+.h1 { font-size: 2em; letter-spacing: -0.06em; }
+.h2 { font-size: 1.5em; letter-spacing: -0.04em; }
+.h3 { font-size: 1.25em; letter-spacing: -0.02em; }
+
+.h4,
+.h5,
+.h6 { font-size: 1em; }
+
+@media (--screen-lg) {
+  .h1 { font-size: 3em; }
+  .h2 { font-size: 2em; }
+  .h3 { font-size: 1.5em; }
+  .h4 { font-size: 1.25em; }
+  .h5,
+  .h6 { font-size: 1em; }
+}
+
+/*
+ * FONT-WEIGHT
+ */
+.fw100 { font-weight: 100; }
+.fw200 { font-weight: 200; }
+.fw300 { font-weight: 300; }
+.fw400 { font-weight: 400; }
+.fw500 { font-weight: 500; }
+.fw600 { font-weight: 600; }
+.fw700 { font-weight: 700; }
+.fw800 { font-weight: 800; }
+.fw900 { font-weight: 900; }
+
+/*
+ * SMALL CAPS
+ *
+ * This is a rare example of combining several properties into one class
+ * which is not a 'reset'. Under consideration.
+ */
+.smallCaps {
+  font-size: 0.666em;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+/*
+ * CASING
+ */
+.upper { text-transform: uppercase; }
+.lower { text-transform: lowercase; }
+
+/*
+ * LINK RESET
+ *
+ * Use this to remove the custom and fallback underline from links.
+ * This should be used with caution, as links should not be indicated
+ * to the user by way of colour alone.
+ *
+ */
+.linkReset {
+  background-image: none;
+  text-decoration: none;
+}
+
+/*
+ * LSIT RESET
+ *
+ * Remove default list styling from lists
+ *
+ */
+.listReset {
+  list-style: none;
+}

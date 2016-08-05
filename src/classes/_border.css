@@ -1,0 +1,38 @@
+/*
+ * GEMMA/BORDERS
+ *
+ * Set solid border widths
+ * and border radii
+ * (Border colours are defined in _color.css)
+ *
+ */
+
+.bsa1 { border-style: solid; border-width: 0.03125em; }
+.bsa2 { border-style: solid; border-width: 0.0625em; }
+.bsa3 { border-style: solid; border-width: 0.125em; }
+.bsa4 { border-style: solid; border-width: 0.25em; }
+
+.bst1 { border-top-style: solid; border-top-width: 0.03125em; }
+.bst2 { border-top-style: solid; border-top-width: 0.0625em; }
+.bst3 { border-top-style: solid; border-top-width: 0.125em; }
+.bst4 { border-top-style: solid; border-top-width: 0.25em; }
+
+.bsb1 { border-bottom-style: solid; border-bottom-width: 0.03125em; }
+.bsb2 { border-bottom-style: solid; border-bottom-width: 0.0625em; }
+.bsb3 { border-bottom-style: solid; border-bottom-width: 0.125em; }
+.bsb4 { border-bottom-style: solid; border-bottom-width: 0.25em; }
+
+.bsl1 { border-left-style: solid; border-left-width: 0.03125em; }
+.bsl2 { border-left-style: solid; border-left-width: 0.0625em; }
+.bsl3 { border-left-style: solid; border-left-width: 0.125em; }
+.bsl4 { border-left-style: solid; border-left-width: 0.25em; }
+
+.bsr1 { border-right-style: solid; border-right-width: 0.03125em; }
+.bsr2 { border-right-style: solid; border-right-width: 0.0625em; }
+.bsr3 { border-right-style: solid; border-right-width: 0.125em; }
+.bsr4 { border-right-style: solid; border-right-width: 0.25em; }
+
+.br1 { border-radius: 0.0625em; }
+.br2 { border-radius: 0.125em; }
+.br3 { border-radius: 0.25em; }
+.br4 { border-radius: 0.5em; }

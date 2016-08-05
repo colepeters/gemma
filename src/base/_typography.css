@@ -47,7 +47,7 @@ h6 {
 }
 
 /* NOTE: If you change heading styles here, ensure they are also
- * changed in the respective s- (surface) classes. */
+ * changed in the respective .h1-h6 classes. */
 h1 { font-size: 2em; letter-spacing: -0.06em; }
 h2 { font-size: 1.5em; letter-spacing: -0.04em; }
 h3 { font-size: 1.25em; letter-spacing: -0.02em; }
@@ -106,7 +106,7 @@ a {
   background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
   background-size: 2px 2px;
-  background-position: 0 90%;
+  background-position: 0 95%;
   transition: all 0.2s;
   transition-timing-function: ease;
 }

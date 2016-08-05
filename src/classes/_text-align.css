@@ -1,0 +1,29 @@
+/*
+ * GEMMA/TEXT-ALIGN
+ *
+ * Set text-alignment.
+ *
+ */
+
+.ta-l { text-align: left !important; }
+.ta-r { text-align: right !important; }
+.ta-c { text-align: center !important; }
+
+@media (--screen-md) {
+  ._md-ta-l { text-align: left !important; }
+  ._md-ta-r { text-align: right !important; }
+  ._md-ta-c { text-align: center !important; }
+}
+
+@media (--screen-lg) {
+  ._lg-ta-l { text-align: left !important; }
+  ._lg-ta-r { text-align: right !important; }
+  ._lg-ta-c { text-align: center !important; }
+}
+
+@media (--screen-xl) {
+  ._xl-ta-l { text-align: left !important; }
+  ._xl-ta-r { text-align: right !important; }
+  ._xl-ta-c { text-align: center !important; }
+}
+

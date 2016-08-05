@@ -1,0 +1,33 @@
+/*
+ * GEMMA/POSITIONING UTILITIES
+ *
+ * For setting position properties
+ *
+ */
+
+.p-s { position: static; }
+.p-r { position: relative; }
+.p-a { position: absolute; }
+.p-f { position: fixed; }
+
+@media (--screen-md) {
+  ._md-p-s { position: static; }
+  ._md-p-r { position: relative; }
+  ._md-p-a { position: absolute; }
+  ._md-p-f { position: fixed; }
+}
+
+@media (--screen-lg) {
+  ._lg-p-s { position: static; }
+  ._lg-p-r { position: relative; }
+  ._lg-p-a { position: absolute; }
+  ._lg-p-f { position: fixed; }
+}
+
+@media (--screen-xl) {
+  ._xl-p-s { position: static; }
+  ._xl-p-r { position: relative; }
+  ._xl-p-a { position: absolute; }
+  ._xl-p-f { position: fixed; }
+}
+
