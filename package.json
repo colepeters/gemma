@@ -1,8 +1,8 @@
 {
   "name": "gemma",
-  "version": "0.4.1",
-  "description": "A starting point for beautiful CSS — currently under development",
-  "style": "src/gemma.css",
+  "version": "1.0.0",
+  "description": "A lightweight CSS library",
+  "style": "public/gemma.min.css",
   "scripts": {
     "compile": "./node_modules/.bin/gulp compile",
     "lint": "./node_modules/.bin/gulp lint"
@@ -14,10 +14,10 @@
   "keywords": [
     "css",
     "postcss",
-    "oocss",
     "modular",
     "functional",
-    "atomic"
+    "atomic",
+    "design"
   ],
   "author": "Cole Peters",
   "license": "MIT",
