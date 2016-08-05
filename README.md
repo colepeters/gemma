@@ -2,7 +2,7 @@
 [![npm-version](https://img.shields.io/npm/v/gemma.svg?style=flat)](https://www.npmjs.com/package/gemma)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-## Functional/atomic/whatever-we’re-calling-it CSS for fun (complete lack of) profit
+## Functional/atomic/whatever-we’re-calling-it CSS for fun and (complete lack of) profit
 Built for performance and (re)usability, Gemma is a collection of foundational styles and classes for creating beautifully simple, highly effective CSS.
 
 ## Philosophy
