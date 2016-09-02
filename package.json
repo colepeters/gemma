@@ -4,8 +4,8 @@
   "description": "A lightweight CSS library",
   "style": "public/gemma.min.css",
   "scripts": {
-    "compile": "./node_modules/.bin/gulp compile",
-    "lint": "./node_modules/.bin/gulp lint"
+    "compile": "postcss -c .postcss.json",
+    "lint": "stylelint './src/**/*.css'"
   },
   "repository": {
     "type": "git",
@@ -26,17 +26,15 @@
   },
   "homepage": "https://github.com/colepeters/gemma#readme",
   "devDependencies": {
-    "cssnano": "~3.5.2",
-    "gulp": "~3.9.0",
-    "gulp-postcss": "~6.0.1",
-    "gulp-rename": "~1.2.2",
-    "postcss-cssnext": "~2.4.0",
-    "postcss-import": "~8.0.2",
-    "postcss-reporter": "~0.4.0",
+    "cssnano": "^3.5.2",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.4.0",
+    "postcss-import": "^8.0.2",
+    "postcss-reporter": "^0.4.0",
     "postcss-url": "~5.1.1",
-    "require-dir": "~0.3.0",
-    "snazzy": "~2.0.0",
-    "standard": "~5.0.2",
     "stylelint": "4.4.0"
+  },
+  "dependencies": {
+    "normalize.css": "^4.2.0"
   }
 }
