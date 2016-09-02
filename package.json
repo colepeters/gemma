@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A lightweight CSS library",
   "style": "public/gemma.min.css",
+  "browser": "public/gemma.min.css",
+  "main": "src/gemma.css",
   "scripts": {
     "compile": "postcss -c .postcss.json",
     "lint": "stylelint './src/**/*.css'"
