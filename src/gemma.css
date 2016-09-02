@@ -5,6 +5,6 @@
  *
  */
 
-@import './base/base.css';
-@import './custom-props/customProps.css';
-@import './classes/classes.css';
+@import './base';
+@import './custom-props';
+@import './classes';
