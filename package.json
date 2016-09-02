@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/colepeters/gemma#readme",
   "devDependencies": {
-    "cssnano": "^3.5.2",
+    "cssnano": "^3.7.4",
     "postcss-cli": "^2.6.0",
-    "postcss-cssnext": "^2.4.0",
-    "postcss-import": "^8.0.2",
-    "postcss-reporter": "^0.4.0",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-import": "^8.1.2",
+    "postcss-reporter": "^1.4.1",
     "postcss-url": "~5.1.1",
-    "stylelint": "4.4.0"
+    "stylelint": "^7.1.0"
   },
   "dependencies": {
     "normalize.css": "^4.2.0"
