@@ -1,0 +1,21 @@
+{
+  "use": [
+    "postcss-import",
+    "postcss-cssnext",
+    "cssnano",
+    "postcss-reporter"
+  ],
+  "input": "./src/gemma.css",
+  "output": "./public/gemma.min.css",
+  "local-plugins": true,
+  "postcss-cssnext": {
+    "warnForDuplicates": false
+  },
+  "cssnano": {
+    "filterPlugins": false,
+    "autoprefixer": false
+  },
+  "postcss-reporter": {
+    "clearMessages": true
+  }
+}

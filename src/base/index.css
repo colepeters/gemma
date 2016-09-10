@@ -1,6 +1,6 @@
 /*
  * GEMMA/ELEMENTS
- * 
+ *
  * Normalisation and styles that target bare HTML elements.
  * These are highly generic styles that should rarely, if ever,
  * be altered, due to the breadth of their implementation.
@@ -8,6 +8,5 @@
  *
  */
 
-@import './_normalize.css';
+@import 'normalize.css';
 @import './_typography.css';
-
