@@ -1,6 +1,6 @@
 {
   "name": "gemma",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A lightweight CSS library",
   "style": "public/gemma.min.css",
   "browser": "public/gemma.min.css",

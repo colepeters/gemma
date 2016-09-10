@@ -54,10 +54,12 @@ Gemma ships with a [linting configuration](https://github.com/colepeters/gemma/b
 ### `npm run compile`
 Passes all source CSS files to [postcss-cssnext](https://github.com/MoOx/postcss-cssnext), via [postcss-cli](https://github.com/postcss/postcss-cli). This transforms source CSS custom properties to their computed values and minifies the output, resulting in a `gemma.min.css` file.
 
+* * *
+
 Additional useful information can be found in [the source files readme](https://github.com/colepeters/gemma/tree/master/src).
 
-## Inspiration and motivation
-Gemma is evolutionary, not revolutionary. Its philosophical and stylistic leanings have been heavily influenced by the following projects:
+## Inspiration
+Gemma’s philosophical and stylistic leanings have been heavily influenced by the following projects:
 
 - [BassCSS](http://basscss.com)
 - [Tachyons](http://tachyons.io)
