@@ -16,16 +16,22 @@ Gemma’s philosophical approach to CSS is nothing new, but tried and true. It f
 
 ## Usage
 
-You can clone or download the Gemma repo directly, or install it into your project via NPM:
+The easiest way to use Gemma is to source it from Unpkg:
+
+```html
+<link rel='stylesheet' href='https://unpkg.com/gemma@1.1.0/public/gemma.min.css'>
+```
+
+Or you can include it as a project dependency via NPM:
 
 ```
 npm i --save gemma
 ```
 
-Either way, all you need to do is import the minified CSS file in the public directory:
+…in which case, you’ll need to import the compiled, minified code:
 
 ```css
-@import '../path/to/your/copy/of/gemma/public/gemma.min.css';
+@import '../path-to-your-copy-of/gemma/public/gemma.min.css';
 ```
 
 ## Class naming
